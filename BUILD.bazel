@@ -130,6 +130,7 @@ cc_library(
         "@gz-math//:Vector2",
         "@gz-utils//:Environment",
         "@gz-utils//:ImplPtr",
+        "@gz-utils//:NeverDestroyed",
     ],
 )
 
