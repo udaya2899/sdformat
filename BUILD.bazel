@@ -123,6 +123,7 @@ cc_library(
         "@gz-math//:Graph",
         "@gz-math//:Inertial",
         "@gz-math//:Pose3",
+        "@gz-math//:Quaternion",
         "@gz-math//:SemanticVersion",
         "@gz-math//:Sphere",
         "@gz-math//:SphericalCoordinates",
@@ -132,6 +133,7 @@ cc_library(
         "@gz-utils//:Environment",
         "@gz-utils//:ImplPtr",
         "@gz-utils//:NeverDestroyed",
+        "@gz-utils//:SuppressWarning",
         "@tinyxml2",
     ],
 )
